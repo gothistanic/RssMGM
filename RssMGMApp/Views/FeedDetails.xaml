@@ -1,0 +1,15 @@
+﻿<UserControl xmlns:syncfusion="http://schemas.syncfusion.com/wpf"  x:Class="RssMGMApp.Views.FeedDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RssMGMApp.Views"
+             mc:Ignorable="d">
+    <Grid>
+        <syncfusion:TabControlExt CloseTabOnMiddleClick="True"
+                          Name="tabControlExt">
+            <syncfusion:TabItemExt Header="tabItem1" Name="tabItemExt1"/>
+            <syncfusion:TabItemExt Header="tabItem2" Name="tabItemExt2"/>
+        </syncfusion:TabControlExt>
+    </Grid>
+</UserControl>
