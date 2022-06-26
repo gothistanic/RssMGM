@@ -2,4 +2,5 @@
 /RssMGMApp/obj/RssMGMApp.csproj.nuget.g.props
 /RssMGMApp/obj/RssMGMApp.csproj.nuget.g.targets
 /RssMGMApp/obj/project.assets.json
-/RssMGMApp/obj/Debug/
+/RssMGMApp/obj/Debug/*
+/RssMGMApp/obj/Debug/**
