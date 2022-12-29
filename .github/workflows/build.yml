@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"gothistanic_RssMGM" /o:"gothistanic" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          run: echo "🖥️ The workflow is now ready to test your code on the runner."
+            run: echo "🖥️ The workflow is now ready to test your code on the runner."
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
