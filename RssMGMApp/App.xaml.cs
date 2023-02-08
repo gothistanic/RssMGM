@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
 namespace RssMGMApp
 {
@@ -13,6 +7,13 @@ namespace RssMGMApp
     /// </summary>
     public partial class App : Application
     {
+        private static readonly string SyncfusionKey =$"MTA4ODA0NkAzMjMwMmUzNDJlMzBZMmlDeUxZN09NbHpreE1TZHZuc3pDcnpVci9tczc3VmdqZ2lzTG9KVUxBPQ==";
+        public App()
+        {
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(SyncfusionKey);
+        }
+
         protected override void OnStartup(StartupEventArgs e)
         {
             MainWindow = new MainWindow();

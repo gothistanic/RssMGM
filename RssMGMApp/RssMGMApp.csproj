@@ -20,7 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="syncfusion.ui.wpf.net" Version="19.4.0.38" />
+    <PackageReference Include="syncfusion.ui.wpf.net" Version="20.4.0.38" />
+    <PackageReference Include="System.ServiceModel.Syndication" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
